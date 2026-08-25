@@ -5,7 +5,7 @@
 
 <!-- Typing Animation -->
 <a href="https://adann.my.id" target="_blank">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&size=16&duration=3000&pause=1000&color=348CD7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=Building+clean%2C+scalable+%26+interactive+UIs.;TypeScript+%7C+Next.js+%7C+React.js+%7C+Vue.js;Fresh+Graduate+%E2%80%94+Telkom+University+Surabaya+%F0%9F%8E%93" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&size=16&duration=3000&pause=1000&color=348CD7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=Building+clean%2C+scalable+%26+interactive+UIs.;TypeScript+%7C+Next.js+%7C+React.js+%7C+Vue.js;Fresh+Graduate+%E2%80%94+Telkom+University+Surabaya" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -35,14 +35,14 @@
 
 ---
 
-## 👨‍💻 About Me
+<img src="https://img.shields.io/badge/--%20About%20Me%20---0A5EB0?style=for-the-badge&logo=aboutdotme&logoColor=white" />
 
 ```ts
 const adann = {
   name    : "Achmad Dany Alfansyah",
   role    : "Full-Stack & Front-End Developer",
-  location: "Sidoarjo, Indonesia 📍",
-  edu     : "B.Sc. Informatics — Telkom University Surabaya (GPA 3.77/4.00) 🎓",
+  location: "Sidoarjo, Indonesia",
+  edu     : "B.Sc. Informatics — Telkom University Surabaya (GPA 3.77/4.00)",
   email   : "achdany14@gmail.com",
   site    : "https://adann.my.id",
   focus   : [
@@ -51,82 +51,57 @@ const adann = {
     "Reusable Component Architecture",
     "Accessible & Responsive Interfaces",
   ],
-  currentlyWorking: "Building scalable full-stack web apps ⚡",
+  currentlyBuilding: "Scalable full-stack web apps",
 };
 ```
 
 ---
 
-## 🛠️ Tech Stack
+<img src="https://img.shields.io/badge/--%20Tech%20Stack%20---0A5EB0?style=for-the-badge&logo=stackshare&logoColor=white" />
 
-### Languages
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</p>
+**Languages**
 
-### Frameworks & Runtime
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Astro.js-FF5D01?style=for-the-badge&logo=astro&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-</p>
+<img src="https://skillicons.dev/icons?i=ts,js,php,python,html,css&theme=dark" />
 
-### UI, Styling & Animation
-<p>
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shadcn%20UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
-</p>
+**Frameworks & Runtime**
 
-### Database, ORM & Backend Services
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-5A67D8?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-</p>
+<img src="https://skillicons.dev/icons?i=nextjs,react,vue,astro,laravel,nodejs,vite&theme=dark" />
 
-### Tools & Deployment
-<p>
-  <img src="https://img.shields.io/badge/Git-F1502F?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
+**UI, Styling & Animation**
+
+<img src="https://skillicons.dev/icons?i=tailwind,figma&theme=dark" />
+&nbsp;<img src="https://img.shields.io/badge/Shadcn%20UI-000000?style=flat-square&logo=shadcnui&logoColor=white&labelColor=000" height="48" />
+&nbsp;<img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" height="48" />
+&nbsp;<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black" height="48" />
+
+**Database, ORM & Services**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,prisma,supabase,firebase&theme=dark" />
+
+**Tools & Deployment**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel&theme=dark" />
 
 ---
 
-## 💼 Featured Projects
+<img src="https://img.shields.io/badge/--%20Featured%20Projects%20---0A5EB0?style=for-the-badge&logo=github&logoColor=white" />
 
 <div align="center">
 
-| Project | Description | Tech Stack | Links |
-|--------|-------------|------------|-------|
-| 🏆 **MagangHab Tracker** | Analytics & vacancy tracking platform for official Kemnaker RI internship program. Multi-filter search, AI vacancy comparison, real-time application tracker. | `Vue.js` `Vite` `Pinia` `Node.js` `SQLite` `Prisma` | [🌐 Demo](https://maganghab.my.id) |
-| 🤟 **BISINDO Detection** | Browser-based real-time Indonesian Sign Language (BISINDO) detection using computer vision. Runs entirely client-side for full privacy. | `Next.js` `TypeScript` `ONNX` `MediaPipe` `Python` | [🌐 Demo](https://deteksi-bisindo.vercel.app) · [📂 Code](https://github.com/adanlff/website-bisindo) |
-| 🛍️ **Shopee Claimer** | Automated voucher claiming tool with millisecond precision via NTP server sync. Supports multi-account and scheduled claims. | `Next.js` `Node.js` `PostgreSQL` `Prisma` | [📂 Code](https://github.com/adanlff/shopee-claim-voucher) |
-| 📋 **Digital Attendance** | Role-based school attendance management system for admin & homeroom teachers. Daily logging + Excel report export. | `Next.js` `PostgreSQL` `Prisma` `XLSX` | [📂 Code](https://github.com/adanlff/absensi-min1sda) |
-| 📚 **Disability Courses** | Inclusive e-learning platform with built-in accessibility overlay for 7 disability types. Multi-role: Student, Mentor & Admin portals. | `Next.js` `PostgreSQL` `Supabase` `BullMQ` `Prisma` | [📂 Code](https://github.com/adanlff/disability-courses) |
-| 🌐 **Website Portfolio** | Personal portfolio with AI assistant (SmartTalk by Gemini), bilingual support, and real-time analytics. | `Next.js` `TypeScript` `Framer Motion` `GSAP` `Gemini AI` | [🌐 Demo](https://adann.my.id) |
+| Project | Description | Stack | Links |
+|---------|-------------|-------|-------|
+| **MagangHab Tracker** | Analytics & vacancy tracking for official Kemnaker RI internship. Multi-filter search, AI comparison, real-time tracker. | `Vue.js` `Vite` `Pinia` `Node.js` `SQLite` `Prisma` | [Demo](https://maganghab.my.id) |
+| **BISINDO Detection** | Real-time Indonesian Sign Language detection entirely in browser. Privacy-first, no data sent to server. | `Next.js` `TypeScript` `ONNX` `MediaPipe` `Python` | [Demo](https://deteksi-bisindo.vercel.app) · [Code](https://github.com/adanlff/website-bisindo) |
+| **Shopee Claimer** | Millisecond-precision voucher claimer using NTP server sync. Multi-account via session cookies. | `Next.js` `Node.js` `PostgreSQL` `Prisma` | [Code](https://github.com/adanlff/shopee-claim-voucher) |
+| **Digital Attendance** | Role-based school attendance system for admin & teachers. Daily logging + Excel export. | `Next.js` `PostgreSQL` `Prisma` `XLSX` | [Code](https://github.com/adanlff/absensi-min1sda) |
+| **Disability Courses** | Inclusive e-learning with accessibility overlay for 7 disability types. Student, Mentor & Admin roles. | `Next.js` `Supabase` `BullMQ` `PostgreSQL` `Prisma` | [Code](https://github.com/adanlff/disability-courses) |
+| **Website Portfolio** | Personal portfolio with Gemini AI assistant, bilingual support & real-time analytics. | `Next.js` `TypeScript` `Framer Motion` `GSAP` `Gemini AI` | [Demo](https://adann.my.id) |
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+<img src="https://img.shields.io/badge/--%20GitHub%20Stats%20---0A5EB0?style=for-the-badge&logo=github&logoColor=white" />
 
 <div align="center">
 
@@ -135,45 +110,43 @@ const adann = {
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=adanlff&theme=tokyonight&ring=348CD7&fire=0A5EB0&currStreakLabel=AED1EF&sideLabels=AED1EF&currStreakNum=ffffff&sideNums=ffffff&dates=85BAE7&background=0d1117&stroke=0A5EB0&border=0A5EB0" />
+<img src="https://streak-stats.demolab.com?user=adanlff&theme=tokyonight&ring=348CD7&fire=0A5EB0&currStreakLabel=AED1EF&sideLabels=AED1EF&currStreakNum=ffffff&sideNums=ffffff&dates=85BAE7&background=0d1117&stroke=0A5EB0&border=0A5EB0" />
 
 </div>
 
 ---
 
-## 🏢 Work Experience
+<img src="https://img.shields.io/badge/--%20Work%20Experience%20---0A5EB0?style=for-the-badge&logo=briefcase&logoColor=white" />
 
 ```
-🏢 Front-End Developer — CoE MOSHEE (Internship) · Sep 2025 – Jan 2026 · Remote
-   ├── Multi-role dashboard UI (Student / Mentor / Admin) with React.js + Next.js
-   ├── Accessibility overlay supporting 7 disability types (dyslexia, colorblind, motor, etc.)
-   ├── Custom Video.js player with multi-quality playback (360p – 1080p)
-   ├── 11+ reusable modal components (course editor, quiz settings, avatar cropper, etc.)
-   └── Recharts data visualization: charts, stats cards, activity feeds
+Front-End Developer  |  CoE MOSHEE (Internship)  |  Sep 2025 - Jan 2026  |  Remote
+  +-- Multi-role dashboard UI: Student / Mentor / Admin with React.js + Next.js
+  +-- Accessibility overlay supporting 7 disability types (dyslexia, colorblind, motor, etc.)
+  +-- Custom Video.js player with multi-quality playback (360p - 1080p)
+  +-- 11+ reusable modal components (course editor, quiz settings, avatar cropper, etc.)
+  +-- Recharts: interactive stats cards, progress charts, and activity feeds
 
-🏫 Front-End Developer — MIN 1 Sidoarjo (Community Service) · Feb 2025 – Jun 2025 · Remote
-   ├── Separate dashboards for Admin & Homeroom Teacher roles
-   ├── Real-time attendance input with date filter, search & batch save
-   └── Excel attendance report export (XLSX)
-```
-
----
-
-## 🎓 Education
-
-```
-🎓 Bachelor of Computer Science — Informatics
-   Telkom University Surabaya · 2022 – 2026
-   GPA: 3.77 / 4.00
-
-🏫 Vocational High School — Telecommunication Access Network Engineering
-   SMK Telkom Sidoarjo · 2019 – 2022
-   Grade: 87.02
+Front-End Developer  |  MIN 1 Sidoarjo (Community Service)  |  Feb 2025 - Jun 2025  |  Remote
+  +-- Separate dashboards for Admin & Homeroom Teacher roles
+  +-- Real-time attendance input with date filter, search & batch save
+  +-- Excel attendance report export (XLSX)
 ```
 
 ---
 
-## 🏆 GitHub Trophies
+<img src="https://img.shields.io/badge/--%20Education%20---0A5EB0?style=for-the-badge&logo=googlescholar&logoColor=white" />
+
+```
+Bachelor of Computer Science — Informatics
+  Telkom University Surabaya  |  2022 - 2026  |  GPA: 3.77 / 4.00
+
+Vocational High School — Telecommunication Access Network Engineering
+  SMK Telkom Sidoarjo  |  2019 - 2022  |  Grade: 87.02
+```
+
+---
+
+<img src="https://img.shields.io/badge/--%20GitHub%20Trophies%20---0A5EB0?style=for-the-badge&logo=github&logoColor=white" />
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=adanlff&theme=tokyonight&column=6&row=1&margin-w=10&margin-h=10&no-bg=false&no-frame=false&title=MultiLanguage,Commits,Repositories,PullRequest,Stars,Followers" />
@@ -181,7 +154,7 @@ const adann = {
 
 ---
 
-## 📈 Activity Graph
+<img src="https://img.shields.io/badge/--%20Activity%20Graph%20---0A5EB0?style=for-the-badge&logo=github&logoColor=white" />
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=adanlff&theme=tokyo-night&bg_color=0d1117&color=348CD7&line=0A5EB0&point=AED1EF&area=true&hide_border=false&border_color=0A5EB0" />
@@ -191,15 +164,14 @@ const adann = {
 
 <div align="center">
 
-<!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A5EB0,100:348CD7&height=120&section=footer" />
 
 <p>
-  <em>✨ Crafted with care — just like every component in my projects.</em><br/>
+  <em>Crafted with care — just like every component in my projects.</em><br/>
   <strong>Let's build something great together.</strong><br/><br/>
-  <a href="https://adann.my.id">🌐 adann.my.id</a> · 
-  <a href="mailto:achdany14@gmail.com">📧 achdany14@gmail.com</a> · 
-  <a href="https://www.linkedin.com/in/achmaddanyalfansyah">💼 LinkedIn</a>
+  <a href="https://adann.my.id">adann.my.id</a> &nbsp;·&nbsp;
+  <a href="mailto:achdany14@gmail.com">achdany14@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/achmaddanyalfansyah">LinkedIn</a>
 </p>
 
 </div>

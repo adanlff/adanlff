@@ -11,68 +11,68 @@
     font-weight: bold;
   }
 </style>
-<rect width="830" height="488" rx="8" fill="#1c2128" stroke="#30363d" stroke-width="1.5"/>
+<rect width="830" height="488" rx="8" fill="#1c2128"/>
 <g font-family="'JetBrains Mono',Consolas,'Courier New',monospace" font-size="13.5">
 <text x="20.0" y="28" font-weight="bold" font-size="14" fill="#e6edf3">adanlff@github</text>
 <line x1="145.3" y1="24.0" x2="810.0" y2="24.0" stroke="#30363d" stroke-width="0.7"/>
-<text x="20.0" y="50" fill="#ffa657">· Role:</text>
+<text x="20.0" y="50" fill="#F4973D">· Role:</text>
 <line x1="87.6" y1="46.0" x2="503.5" y2="46.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="50" text-anchor="end" fill="#79c0ff">Web Developer &amp; Full-Stack Developer</text>
-<text x="20.0" y="68" fill="#ffa657">· Location:</text>
+<text x="810.0" y="50" text-anchor="end" fill="#429AEF">Web Developer &amp; Full-Stack Developer</text>
+<text x="20.0" y="68" fill="#F4973D">· Location:</text>
 <line x1="120.6" y1="64.0" x2="553.0" y2="64.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="68" text-anchor="end" fill="#79c0ff">Sidoarjo, East Java, Indonesia</text>
-<text x="20.0" y="86" fill="#ffa657">· Education:</text>
+<text x="810.0" y="68" text-anchor="end" fill="#429AEF">Sidoarjo, East Java, Indonesia</text>
+<text x="20.0" y="86" fill="#F4973D">· Education:</text>
 <line x1="128.8" y1="82.0" x2="544.7" y2="82.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="86" text-anchor="end" fill="#79c0ff">Informatics — Telkom University</text>
-<text x="20.0" y="104" fill="#ffa657">· GPA:</text>
+<text x="810.0" y="86" text-anchor="end" fill="#429AEF">Informatics — Telkom University</text>
+<text x="20.0" y="104" fill="#F4973D">· GPA:</text>
 <line x1="79.4" y1="100.0" x2="569.4" y2="100.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="104" text-anchor="end" fill="#79c0ff">3.77 / 4.00 (Fresh Graduate)</text>
-<text x="20.0" y="122" fill="#ffa657">· IDE &amp; Tools:</text>
+<text x="810.0" y="104" text-anchor="end" fill="#429AEF">3.77 / 4.00 (Fresh Graduate)</text>
+<text x="20.0" y="122" fill="#F4973D">· IDE &amp; Tools:</text>
 <line x1="145.3" y1="118.0" x2="577.7" y2="118.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="122" text-anchor="end" fill="#79c0ff">VS Code, Figma, Git, Vercel</text>
+<text x="810.0" y="122" text-anchor="end" fill="#429AEF">VS Code, Figma, Git, Vercel</text>
 <text x="20.0" y="158" fill="#30363d">─ </text>
 <text x="36.5" y="158" fill="#c9d1d9">Tech Stack</text>
 <line x1="128.8" y1="154.0" x2="810.0" y2="154.0" stroke="#30363d" stroke-width="0.7"/>
-<text x="20.0" y="176" fill="#ffa657">· Languages.Code:</text>
+<text x="20.0" y="176" fill="#F4973D">· Languages.Code:</text>
 <line x1="170.0" y1="172.0" x2="511.8" y2="172.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="176" text-anchor="end" fill="#79c0ff">TypeScript, JavaScript, PHP, Python</text>
-<text x="20.0" y="194" fill="#ffa657">· Languages.Web:</text>
+<text x="810.0" y="176" text-anchor="end" fill="#429AEF">TypeScript, JavaScript, PHP, Python</text>
+<text x="20.0" y="194" fill="#F4973D">· Languages.Web:</text>
 <line x1="161.8" y1="190.0" x2="536.5" y2="190.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="194" text-anchor="end" fill="#79c0ff">HTML5, CSS3, SQL, JSON, Markdown</text>
-<text x="20.0" y="212" fill="#ffa657">· Frameworks:</text>
+<text x="810.0" y="194" text-anchor="end" fill="#429AEF">HTML5, CSS3, SQL, JSON, Markdown</text>
+<text x="20.0" y="212" fill="#F4973D">· Frameworks:</text>
 <line x1="137.1" y1="208.0" x2="462.4" y2="208.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="212" text-anchor="end" fill="#79c0ff">Next.js, React.js, Vue.js, Astro, Laravel</text>
-<text x="20.0" y="230" fill="#ffa657">· UI &amp; Motion:</text>
+<text x="810.0" y="212" text-anchor="end" fill="#429AEF">Next.js, React.js, Vue.js, Astro, Laravel</text>
+<text x="20.0" y="230" fill="#F4973D">· UI &amp; Motion:</text>
 <line x1="145.3" y1="226.0" x2="437.7" y2="226.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="230" text-anchor="end" fill="#79c0ff">Tailwind CSS, Shadcn UI, Framer Motion, GSAP</text>
-<text x="20.0" y="248" fill="#ffa657">· Database &amp; BaaS:</text>
+<text x="810.0" y="230" text-anchor="end" fill="#429AEF">Tailwind CSS, Shadcn UI, Framer Motion, GSAP</text>
+<text x="20.0" y="248" fill="#F4973D">· Database &amp; BaaS:</text>
 <line x1="178.2" y1="244.0" x2="445.9" y2="244.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="248" text-anchor="end" fill="#79c0ff">PostgreSQL, MySQL, SQLite, Prisma, Supabase</text>
+<text x="810.0" y="248" text-anchor="end" fill="#429AEF">PostgreSQL, MySQL, SQLite, Prisma, Supabase</text>
 <text x="20.0" y="284" fill="#30363d">─ </text>
 <text x="36.5" y="284" fill="#c9d1d9">Experience &amp; Projects</text>
 <line x1="219.4" y1="280.0" x2="810.0" y2="280.0" stroke="#30363d" stroke-width="0.7"/>
-<text x="20.0" y="302" fill="#ffa657">· Work Experience:</text>
+<text x="20.0" y="302" fill="#F4973D">· Work Experience:</text>
 <line x1="178.2" y1="298.0" x2="503.5" y2="298.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="302" text-anchor="end" fill="#79c0ff">CoE MOSHEE (Intern) · MIN 1 Sidoarjo</text>
-<text x="20.0" y="320" fill="#ffa657">· Featured Projects:</text>
+<text x="810.0" y="302" text-anchor="end" fill="#429AEF">CoE MOSHEE (Intern) · MIN 1 Sidoarjo</text>
+<text x="20.0" y="320" fill="#F4973D">· Featured Projects:</text>
 <line x1="194.7" y1="316.0" x2="503.5" y2="316.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="320" text-anchor="end" fill="#79c0ff">MagangHab Tracker, BISINDO Detection</text>
-<text x="20.0" y="338" fill="#ffa657">· UI/UX Focus:</text>
+<text x="810.0" y="320" text-anchor="end" fill="#429AEF">MagangHab Tracker, BISINDO Detection</text>
+<text x="20.0" y="338" fill="#F4973D">· UI/UX Focus:</text>
 <line x1="145.3" y1="334.0" x2="429.4" y2="334.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="338" text-anchor="end" fill="#79c0ff">Clean UI · Micro-Interactions · Accessibility</text>
+<text x="810.0" y="338" text-anchor="end" fill="#429AEF">Clean UI · Micro-Interactions · Accessibility</text>
 <text x="20.0" y="374" fill="#30363d">─ </text>
 <text x="36.5" y="374" fill="#c9d1d9">Contact</text>
 <line x1="104.1" y1="370.0" x2="810.0" y2="370.0" stroke="#30363d" stroke-width="0.7"/>
-<text x="20.0" y="392" fill="#ffa657">· Email:</text>
+<text x="20.0" y="392" fill="#F4973D">· Email:</text>
 <line x1="95.9" y1="388.0" x2="643.5" y2="388.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="392" text-anchor="end" fill="#79c0ff">achdany14@gmail.com</text>
-<text x="20.0" y="410" fill="#ffa657">· Portfolio:</text>
+<text x="810.0" y="392" text-anchor="end" fill="#429AEF">achdany14@gmail.com</text>
+<text x="20.0" y="410" fill="#F4973D">· Portfolio:</text>
 <line x1="128.8" y1="406.0" x2="709.4" y2="406.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="410" text-anchor="end" fill="#79c0ff">adann.my.id</text>
-<text x="20.0" y="428" fill="#ffa657">· LinkedIn:</text>
+<text x="810.0" y="410" text-anchor="end" fill="#429AEF">adann.my.id</text>
+<text x="20.0" y="428" fill="#F4973D">· LinkedIn:</text>
 <line x1="120.6" y1="424.0" x2="610.6" y2="424.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="428" text-anchor="end" fill="#79c0ff">/in/achmaddanyalfansyah</text>
-<text x="20.0" y="446" fill="#ffa657">· Instagram:</text>
+<text x="810.0" y="428" text-anchor="end" fill="#429AEF">/in/achmaddanyalfansyah</text>
+<text x="20.0" y="446" fill="#F4973D">· Instagram:</text>
 <line x1="128.8" y1="442.0" x2="734.1" y2="442.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="446" text-anchor="end" fill="#79c0ff">@adanlff</text>
+<text x="810.0" y="446" text-anchor="end" fill="#429AEF">@adanlff</text>
 </g></svg>

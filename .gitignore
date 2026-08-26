@@ -2,3 +2,4 @@
 *.otf
 *.woff
 *.woff2
+gen_svg.py

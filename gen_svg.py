@@ -107,7 +107,8 @@ def make_svg(bg, hc, kc, dc, vc, nc, sc):
 
     out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="830" height="{svg_h}" viewBox="0 0 830 {svg_h}">')
     out.append(FONT_FACE)
-    out.append(f'<rect width="830" height="{svg_h}" rx="8" fill="{bg}"/>')
+    border_color = '#30363d' if bg == '#161b22' else '#d0d7de'
+    out.append(f'<rect width="830" height="{svg_h}" rx="8" fill="{bg}" stroke="{border_color}" stroke-width="1"/>')
     out.append(f'<g font-family={FONT!r} font-size="13.5">')
 
     # Header row
@@ -130,11 +131,11 @@ def make_svg(bg, hc, kc, dc, vc, nc, sc):
 
 
 dark = make_svg(
-    bg='#0d1117', hc='#e6edf3', kc='#ffa657', dc='#3d444d',
-    vc='#79c0ff', nc='#c9d1d9', sc='#3d444d',
+    bg='#161b22', hc='#e6edf3', kc='#ffa657', dc='#484f58',
+    vc='#79c0ff', nc='#c9d1d9', sc='#484f58',
 )
 light = make_svg(
-    bg='#f6f8fa', hc='#1f2328', kc='#953800', dc='#c2cfde',
+    bg='#ffffff', hc='#1f2328', kc='#953800', dc='#c2cfde',
     vc='#0a3069', nc='#57606a', sc='#c2cfde',
 )
 

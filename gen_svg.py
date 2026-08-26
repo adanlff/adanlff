@@ -25,9 +25,9 @@ dot_step = 7.5
 FONT     = "'JetBrains Mono',Consolas,'Courier New',monospace"
 
 ROWS = [
-    ('· Role:',                    'Full-Stack & Front-End Developer'),
+    ('· Role:',                    'Web Developer & Full-Stack Developer'),
     ('· Location:',                'Sidoarjo, East Java, Indonesia'),
-    ('· Education:',               'B.Sc. Informatics — Telkom University'),
+    ('· Education:',               'Informatics — Telkom University'),
     ('· GPA:',                     '3.77 / 4.00 (Fresh Graduate)'),
     ('· IDE & Tools:',             'VS Code, Figma, Git, Vercel'),
     None,

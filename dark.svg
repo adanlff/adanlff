@@ -16,14 +16,14 @@
 <text x="20.0" y="28" font-weight="bold" font-size="14" fill="#e6edf3">adanlff@github</text>
 <line x1="145.3" y1="24.0" x2="810.0" y2="24.0" stroke="#30363d" stroke-width="0.7"/>
 <text x="20.0" y="50" fill="#ffa657">· Role:</text>
-<line x1="87.6" y1="46.0" x2="536.5" y2="46.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="50" text-anchor="end" fill="#79c0ff">Full-Stack &amp; Front-End Developer</text>
+<line x1="87.6" y1="46.0" x2="503.5" y2="46.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
+<text x="810.0" y="50" text-anchor="end" fill="#79c0ff">Web Developer &amp; Full-Stack Developer</text>
 <text x="20.0" y="68" fill="#ffa657">· Location:</text>
 <line x1="120.6" y1="64.0" x2="553.0" y2="64.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
 <text x="810.0" y="68" text-anchor="end" fill="#79c0ff">Sidoarjo, East Java, Indonesia</text>
 <text x="20.0" y="86" fill="#ffa657">· Education:</text>
-<line x1="128.8" y1="82.0" x2="495.3" y2="82.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
-<text x="810.0" y="86" text-anchor="end" fill="#79c0ff">B.Sc. Informatics — Telkom University</text>
+<line x1="128.8" y1="82.0" x2="544.7" y2="82.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
+<text x="810.0" y="86" text-anchor="end" fill="#79c0ff">Informatics — Telkom University</text>
 <text x="20.0" y="104" fill="#ffa657">· GPA:</text>
 <line x1="79.4" y1="100.0" x2="569.4" y2="100.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
 <text x="810.0" y="104" text-anchor="end" fill="#79c0ff">3.77 / 4.00 (Fresh Graduate)</text>

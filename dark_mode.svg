@@ -1,21 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="360" viewBox="0 0 830 360">
-<rect width="830" height="360" rx="8" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="412" viewBox="0 0 830 412">
+<rect width="830" height="412" rx="8" fill="#0d1117"/>
 <g font-family="Consolas,'Courier New',monospace" font-size="13.5">
-<text x="20" y="28" xml:space="preserve" font-weight="bold"><tspan fill="#e6edf3">adanlff@github </tspan><tspan fill="#3d444d" font-weight="normal">─────────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="20" y="50" xml:space="preserve"><tspan fill="#ffa657">· OS:                    </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">               Windows, Linux, shell</tspan></text>
-<text x="20" y="68" xml:space="preserve"><tspan fill="#ffa657">· Uptime:                </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">                      fresh graduate</tspan></text>
-<text x="20" y="86" xml:space="preserve"><tspan fill="#ffa657">· Host:                  </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">          Telkom University Surabaya</tspan></text>
-<text x="20" y="104" xml:space="preserve"><tspan fill="#ffa657">· Kernel:                </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">      Full-Stack &amp; Front-End Dev</tspan></text>
-<text x="20" y="122" xml:space="preserve"><tspan fill="#ffa657">· IDE:                   </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">                      VS Code, Figma</tspan></text>
-<text x="20" y="158" xml:space="preserve"><tspan fill="#ffa657">· Languages.Programming: </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">      TypeScript, JavaScript, Python</tspan></text>
-<text x="20" y="176" xml:space="preserve"><tspan fill="#ffa657">· Languages.Computer:    </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">      HTML, CSS, JSON, SQL, Markdown</tspan></text>
-<text x="20" y="194" xml:space="preserve"><tspan fill="#ffa657">· Languages.Real:        </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">                 Indonesian, English</tspan></text>
-<text x="20" y="212" xml:space="preserve"><tspan fill="#3d444d">─ </tspan><tspan fill="#c9d1d9">Contact</tspan><tspan fill="#3d444d"> ──────────────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="20" y="230" xml:space="preserve"><tspan fill="#ffa657">· Email:                 </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">                 achdany14@gmail.com</tspan></text>
-<text x="20" y="248" xml:space="preserve"><tspan fill="#ffa657">· Instagram:             </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">                            @adanlff</tspan></text>
-<text x="20" y="266" xml:space="preserve"><tspan fill="#ffa657">· LinkedIn:              </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">             /in/achmaddanyalfansyah</tspan></text>
-<text x="20" y="284" xml:space="preserve"><tspan fill="#ffa657">· Website:               </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">                         adann.my.id</tspan></text>
-<text x="20" y="302" xml:space="preserve"><tspan fill="#3d444d">─ </tspan><tspan fill="#c9d1d9">GitHub Stats</tspan><tspan fill="#3d444d"> ─────────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="20" y="320" xml:space="preserve"><tspan fill="#ffa657">· GPA:                   </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">           3.77 / 4.00 - Informatics</tspan></text>
-<text x="20" y="338" xml:space="preserve"><tspan fill="#ffa657">· Stack:                 </tspan><tspan fill="#3d444d">...................................</tspan><tspan fill="#79c0ff">          Next.js, React, TypeScript</tspan></text>
+<text x="20.0" y="28" font-weight="bold" fill="#e6edf3">adanlff@github</text>
+<line x1="143.4" y1="24.0" x2="810.0" y2="24.0" stroke="#3d444d" stroke-width="0.7"/>
+<text x="20.0" y="50" fill="#ffa657">· OS:</text>
+<line x1="70.5" y1="46.0" x2="629.9" y2="46.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="50" text-anchor="end" fill="#79c0ff">Windows, Linux, shell</text>
+<text x="20.0" y="68" fill="#ffa657">· Uptime:</text>
+<line x1="102.9" y1="64.0" x2="686.6" y2="64.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="68" text-anchor="end" fill="#79c0ff">fresh graduate</text>
+<text x="20.0" y="86" fill="#ffa657">· Host:</text>
+<line x1="86.7" y1="82.0" x2="589.4" y2="82.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="86" text-anchor="end" fill="#79c0ff">Telkom University Surabaya</text>
+<text x="20.0" y="104" fill="#ffa657">· Kernel:</text>
+<line x1="102.9" y1="100.0" x2="589.4" y2="100.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="104" text-anchor="end" fill="#79c0ff">Full-Stack &amp; Front-End Dev</text>
+<text x="20.0" y="122" fill="#ffa657">· IDE:</text>
+<line x1="78.6" y1="118.0" x2="686.6" y2="118.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="122" text-anchor="end" fill="#79c0ff">VS Code, Figma</text>
+<text x="20.0" y="158" fill="#ffa657">· Languages.Programming:</text>
+<line x1="224.4" y1="154.0" x2="557.0" y2="154.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="158" text-anchor="end" fill="#79c0ff">TypeScript, JavaScript, Python</text>
+<text x="20.0" y="176" fill="#ffa657">· Languages.Computer:</text>
+<line x1="200.1" y1="172.0" x2="557.0" y2="172.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="176" text-anchor="end" fill="#79c0ff">HTML, CSS, JSON, SQL, Markdown</text>
+<text x="20.0" y="194" fill="#ffa657">· Languages.Real:</text>
+<line x1="167.7" y1="190.0" x2="646.1" y2="190.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="194" text-anchor="end" fill="#79c0ff">Indonesian, English</text>
+<text x="20.0" y="230" fill="#3d444d">─ </text>
+<text x="36.2" y="230" fill="#c9d1d9">Contact</text>
+<line x1="102.9" y1="226.0" x2="810.0" y2="226.0" stroke="#3d444d" stroke-width="0.7"/>
+<text x="20.0" y="248" fill="#ffa657">· Email:</text>
+<line x1="94.8" y1="244.0" x2="646.1" y2="244.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="248" text-anchor="end" fill="#79c0ff">achdany14@gmail.com</text>
+<text x="20.0" y="266" fill="#ffa657">· Instagram:</text>
+<line x1="127.2" y1="262.0" x2="735.2" y2="262.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="266" text-anchor="end" fill="#79c0ff">@adanlff</text>
+<text x="20.0" y="284" fill="#ffa657">· LinkedIn:</text>
+<line x1="119.1" y1="280.0" x2="613.7" y2="280.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="284" text-anchor="end" fill="#79c0ff">/in/achmaddanyalfansyah</text>
+<text x="20.0" y="302" fill="#ffa657">· Website:</text>
+<line x1="111.0" y1="298.0" x2="710.9" y2="298.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="302" text-anchor="end" fill="#79c0ff">adann.my.id</text>
+<text x="20.0" y="338" fill="#3d444d">─ </text>
+<text x="36.2" y="338" fill="#c9d1d9">GitHub Stats</text>
+<line x1="143.4" y1="334.0" x2="810.0" y2="334.0" stroke="#3d444d" stroke-width="0.7"/>
+<text x="20.0" y="356" fill="#ffa657">· GPA:</text>
+<line x1="78.6" y1="352.0" x2="597.5" y2="352.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="356" text-anchor="end" fill="#79c0ff">3.77 / 4.00 - Informatics</text>
+<text x="20.0" y="374" fill="#ffa657">· Stack:</text>
+<line x1="94.8" y1="370.0" x2="589.4" y2="370.0" stroke="#3d444d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.0"/>
+<text x="810.0" y="374" text-anchor="end" fill="#79c0ff">Next.js, React, TypeScript</text>
 </g></svg>

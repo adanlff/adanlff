@@ -1,5 +1,31 @@
-char_w = 8.1   # Consolas 13.5px ≈ 8.1px per char
-dot_step = 7.0  # px per dot in the dotted line
+import base64, os
+
+# ── Font embedding ──────────────────────────────────────────────────────────
+def load_font_b64(path):
+    with open(path, 'rb') as f:
+        return base64.b64encode(f.read()).decode('ascii')
+
+regular_b64 = load_font_b64('JetBrainsMono-Regular.ttf')
+bold_b64    = load_font_b64('JetBrainsMono-Bold.ttf')
+
+FONT_FACE = f"""<style>
+  @font-face {{
+    font-family: 'JetBrains Mono';
+    src: url('data:font/ttf;base64,{regular_b64}') format('truetype');
+    font-weight: normal;
+  }}
+  @font-face {{
+    font-family: 'JetBrains Mono';
+    src: url('data:font/ttf;base64,{bold_b64}') format('truetype');
+    font-weight: bold;
+  }}
+</style>"""
+
+# ── Config ───────────────────────────────────────────────────────────────────
+# JetBrains Mono advance width: 610 units / 1000 em → at 13.5px = 8.235px/char
+char_w   = 8.235
+dot_step = 7.5   # px per dot in the dotted SVG line
+FONT     = "'JetBrains Mono',Consolas,'Courier New',monospace"
 
 ROWS = [
     ('· OS:',                     'Windows, Linux, shell'),
@@ -25,67 +51,73 @@ ROWS = [
 
 
 def make_svg(bg, hc, kc, dc, vc, nc, sc):
-    X0 = 20     # left padding
-    X1 = 810    # right edge
-    DG = 10     # gap between key/dots and dots/value (px)
-    RH = 18     # row height (px)
+    X0 = 20    # left padding
+    X1 = 810   # right edge
+    DG = 10    # gap between key end and dots, and dots end and value
+    RH = 18    # row height
 
     def xml(s):
         return s.replace('&', '&amp;').replace('<', '&lt;')
 
     out = []
 
-    def t(x, y, content, color, anchor='start', bold=False):
-        w = ' font-weight="bold"' if bold else ''
-        a = f' text-anchor="{anchor}"' if anchor != 'start' else ''
-        out.append(f'<text x="{x:.1f}" y="{y}"{a}{w} fill="{color}">{xml(content)}</text>')
+    def t(x, y, content, color, anchor='start', bold=False, size=13.5):
+        w  = ' font-weight="bold"' if bold else ''
+        a  = f' text-anchor="{anchor}"' if anchor != 'start' else ''
+        sz = f' font-size="{size}"' if size != 13.5 else ''
+        out.append(
+            f'<text x="{x:.1f}" y="{y}"{a}{w}{sz} fill="{color}">{xml(content)}</text>'
+        )
 
     def hline(x1, x2, y, color, width=0.7):
-        out.append(f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" '
-                   f'stroke="{color}" stroke-width="{width}"/>')
+        out.append(
+            f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" '
+            f'stroke="{color}" stroke-width="{width}"/>'
+        )
 
     def dots(x1, x2, y, color):
         if x2 - x1 < dot_step:
             return
-        out.append(f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" '
-                   f'stroke="{color}" stroke-width="1.8" stroke-linecap="round" '
-                   f'stroke-dasharray="0.001 {dot_step}"/>')
+        out.append(
+            f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" '
+            f'stroke="{color}" stroke-width="1.8" stroke-linecap="round" '
+            f'stroke-dasharray="0.001 {dot_step}"/>'
+        )
 
     def data_row(y, key, val):
-        kw = len(key) * char_w
-        vw = len(val) * char_w
-        d_x1 = X0 + kw + DG
-        d_x2 = X1 - vw - DG
+        kw   = len(key) * char_w
+        vw   = len(val) * char_w
+        dx1  = X0 + kw + DG
+        dx2  = X1 - vw - DG
         t(X0, y, key, kc)
-        dots(d_x1, d_x2, y - 4, dc)
+        dots(dx1, dx2, y - 4, dc)
         t(X1, y, val, vc, anchor='end')
 
     def section_header(y, label):
-        # "─ " dim, label normal, then SVG line to right edge
-        prefix = '─ '
+        prefix    = '─ '
+        prefix_w  = len(prefix) * char_w
+        label_w   = len(label) * char_w
+        line_x1   = X0 + prefix_w + label_w + DG
         t(X0, y, prefix, sc)
-        lx = X0 + len(prefix) * char_w
-        t(lx, y, label, nc)
-        line_x1 = lx + len(label) * char_w + DG
+        t(X0 + prefix_w, y, label, nc)
         hline(line_x1, X1, y - 4, sc)
 
-    # Calculate total height
-    total_h = 50 + len(ROWS) * RH + 20
-    svg_h = max(360, total_h)
+    # Calculate SVG height
+    svg_h = 50 + sum(RH if r is not None else RH for r in ROWS) + 24
 
     out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="830" height="{svg_h}" viewBox="0 0 830 {svg_h}">')
+    out.append(FONT_FACE)
     out.append(f'<rect width="830" height="{svg_h}" rx="8" fill="{bg}"/>')
-    out.append(f"<g font-family=\"Consolas,'Courier New',monospace\" font-size=\"13.5\">")
+    out.append(f'<g font-family={FONT!r} font-size="13.5">')
 
-    # Header
-    t(X0, 28, 'adanlff@github', hc, bold=True)
-    header_line_x1 = X0 + len('adanlff@github') * char_w + DG
-    hline(header_line_x1, X1, 24, sc)
+    # Header row
+    t(X0, 28, 'adanlff@github', hc, bold=True, size=14)
+    hline(X0 + len('adanlff@github') * char_w + DG, X1, 24, sc)
 
     y = 50
     for row in ROWS:
         if row is None:
-            y += RH  # blank gap
+            y += RH
         elif row[0] == '__SECTION__':
             section_header(y, row[1])
             y += RH
@@ -111,11 +143,6 @@ with open('dark_mode.svg', 'w', encoding='utf-8') as f:
 with open('light_mode.svg', 'w', encoding='utf-8') as f:
     f.write(light)
 
-print('Done! SVG lines:', dark.count('\n') + 1)
-
-# Verify a sample row
-for line in dark.split('\n'):
-    if 'OS:' in line and 'text' in line and 'ffa657' in line:
-        print('Sample key:', line[:100])
-    if 'OS:' in line and 'line' in line:
-        print('Sample dot:', line[:100])
+kb = len(dark.encode()) / 1024
+print(f'Done! dark_mode.svg: {kb:.1f} KB')
+print(f'      light_mode.svg: {len(light.encode())/1024:.1f} KB')

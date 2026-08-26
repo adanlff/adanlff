@@ -1,6 +1,5 @@
-import base64, os
+import base64
 
-# ── Font embedding ──────────────────────────────────────────────────────────
 def load_font_b64(path):
     with open(path, 'rb') as f:
         return base64.b64encode(f.read()).decode('ascii')
@@ -21,40 +20,38 @@ FONT_FACE = f"""<style>
   }}
 </style>"""
 
-# ── Config ───────────────────────────────────────────────────────────────────
-# JetBrains Mono advance width: 610 units / 1000 em → at 13.5px = 8.235px/char
 char_w   = 8.235
-dot_step = 7.5   # px per dot in the dotted SVG line
+dot_step = 7.5
 FONT     = "'JetBrains Mono',Consolas,'Courier New',monospace"
 
 ROWS = [
-    ('· OS:',                     'Windows, Linux, shell'),
-    ('· Uptime:',                  'fresh graduate'),
-    ('· Host:',                    'Telkom University Surabaya'),
-    ('· Kernel:',                  'Full-Stack & Front-End Dev'),
-    ('· IDE:',                     'VS Code, Figma'),
+    ('· OS:',                    'Windows, Linux, shell'),
+    ('· Uptime:',                'fresh graduate'),
+    ('· Host:',                  'Telkom University Surabaya'),
+    ('· Kernel:',                'Full-Stack & Front-End Dev'),
+    ('· IDE:',                   'VS Code, Figma'),
     None,
-    ('· Languages.Programming:',   'TypeScript, JavaScript, Python'),
-    ('· Languages.Computer:',      'HTML, CSS, JSON, SQL, Markdown'),
-    ('· Languages.Real:',          'Indonesian, English'),
+    ('· Languages.Programming:', 'TypeScript, JavaScript, Python'),
+    ('· Languages.Computer:',    'HTML, CSS, JSON, SQL, Markdown'),
+    ('· Languages.Real:',        'Indonesian, English'),
     None,
     ('__SECTION__', 'Contact'),
-    ('· Email:',                   'achdany14@gmail.com'),
-    ('· Instagram:',               '@adanlff'),
-    ('· LinkedIn:',                '/in/achmaddanyalfansyah'),
-    ('· Website:',                 'adann.my.id'),
+    ('· Email:',                 'achdany14@gmail.com'),
+    ('· Instagram:',             '@adanlff'),
+    ('· LinkedIn:',              '/in/achmaddanyalfansyah'),
+    ('· Website:',               'adann.my.id'),
     None,
     ('__SECTION__', 'GitHub Stats'),
-    ('· GPA:',                     '3.77 / 4.00 - Informatics'),
-    ('· Stack:',                   'Next.js, React, TypeScript'),
+    ('· GPA:',                   '3.77 / 4.00 - Informatics'),
+    ('· Stack:',                 'Next.js, React, TypeScript'),
 ]
 
 
 def make_svg(bg, hc, kc, dc, vc, nc, sc):
-    X0 = 20    # left padding
-    X1 = 810   # right edge
-    DG = 10    # gap between key end and dots, and dots end and value
-    RH = 18    # row height
+    X0 = 20
+    X1 = 810
+    DG = 10
+    RH = 18
 
     def xml(s):
         return s.replace('&', '&amp;').replace('<', '&lt;')
@@ -65,54 +62,38 @@ def make_svg(bg, hc, kc, dc, vc, nc, sc):
         w  = ' font-weight="bold"' if bold else ''
         a  = f' text-anchor="{anchor}"' if anchor != 'start' else ''
         sz = f' font-size="{size}"' if size != 13.5 else ''
-        out.append(
-            f'<text x="{x:.1f}" y="{y}"{a}{w}{sz} fill="{color}">{xml(content)}</text>'
-        )
+        out.append(f'<text x="{x:.1f}" y="{y}"{a}{w}{sz} fill="{color}">{xml(content)}</text>')
 
     def hline(x1, x2, y, color, width=0.7):
-        out.append(
-            f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" '
-            f'stroke="{color}" stroke-width="{width}"/>'
-        )
+        out.append(f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" stroke="{color}" stroke-width="{width}"/>')
 
     def dots(x1, x2, y, color):
         if x2 - x1 < dot_step:
             return
-        out.append(
-            f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" '
-            f'stroke="{color}" stroke-width="1.8" stroke-linecap="round" '
-            f'stroke-dasharray="0.001 {dot_step}"/>'
-        )
+        out.append(f'<line x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" stroke="{color}" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 {dot_step}"/>')
 
     def data_row(y, key, val):
-        kw   = len(key) * char_w
-        vw   = len(val) * char_w
-        dx1  = X0 + kw + DG
-        dx2  = X1 - vw - DG
+        dx1 = X0 + len(key) * char_w + DG
+        dx2 = X1 - len(val) * char_w - DG
         t(X0, y, key, kc)
         dots(dx1, dx2, y - 4, dc)
         t(X1, y, val, vc, anchor='end')
 
     def section_header(y, label):
-        prefix    = '─ '
-        prefix_w  = len(prefix) * char_w
-        label_w   = len(label) * char_w
-        line_x1   = X0 + prefix_w + label_w + DG
+        prefix   = '─ '
+        prefix_w = len(prefix) * char_w
+        line_x1  = X0 + prefix_w + len(label) * char_w + DG
         t(X0, y, prefix, sc)
         t(X0 + prefix_w, y, label, nc)
         hline(line_x1, X1, y - 4, sc)
 
-    # Calculate SVG height
-    svg_h = 50 + sum(RH if r is not None else RH for r in ROWS) + 24
+    svg_h = 50 + len(ROWS) * RH + 24
 
     out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="830" height="{svg_h}" viewBox="0 0 830 {svg_h}">')
     out.append(FONT_FACE)
-    # Solid background + border
-    border_color, bw = sc, '1.5'
-    out.append(f'<rect width="830" height="{svg_h}" rx="8" fill="{bg}" stroke="{border_color}" stroke-width="{bw}"/>')
+    out.append(f'<rect width="830" height="{svg_h}" rx="8" fill="{bg}" stroke="{sc}" stroke-width="1.5"/>')
     out.append(f'<g font-family={FONT!r} font-size="13.5">')
 
-    # Header row
     t(X0, 28, 'adanlff@github', hc, bold=True, size=14)
     hline(X0 + len('adanlff@github') * char_w + DG, X1, 24, sc)
 
@@ -131,23 +112,21 @@ def make_svg(bg, hc, kc, dc, vc, nc, sc):
     return '\n'.join(out)
 
 
-# Solid bg colors (clearly different from GitHub page backgrounds)
 dark = make_svg(
-    bg='#1c2128',              # GitHub canvas-overlay, clearly ≠ page #0d1117
+    bg='#1c2128',
     hc='#e6edf3', kc='#ffa657', dc='#484f58',
     vc='#79c0ff', nc='#c9d1d9', sc='#30363d',
 )
 light = make_svg(
-    bg='#f0f6ff',              # soft blue-white, clearly ≠ GitHub light #f6f8fa
+    bg='#f0f6ff',
     hc='#1f2328', kc='#953800', dc='#b9c5d0',
     vc='#0a3069', nc='#57606a', sc='#c2cfde',
 )
 
-with open('dark_mode.svg', 'w', encoding='utf-8') as f:
+with open('dark.svg', 'w', encoding='utf-8') as f:
     f.write(dark)
-with open('light_mode.svg', 'w', encoding='utf-8') as f:
+with open('light.svg', 'w', encoding='utf-8') as f:
     f.write(light)
 
-kb = len(dark.encode()) / 1024
-print(f'Done! dark_mode.svg: {kb:.1f} KB')
-print(f'      light_mode.svg: {len(light.encode())/1024:.1f} KB')
+print(f'dark.svg:  {len(dark.encode())/1024:.1f} KB')
+print(f'light.svg: {len(light.encode())/1024:.1f} KB')

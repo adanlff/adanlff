@@ -1,124 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="390" viewBox="0 0 620 390">
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="360" viewBox="0 0 830 360">
   <style>
-    @font-face {
-      font-family: 'ConsolasFallback';
-      src: local('Consolas'), local('Courier New');
-      size-adjust: 109%;
-      -webkit-size-adjust: 109%;
-    }
     text {
-      font-family: 'ConsolasFallback', Consolas, 'Courier New', monospace;
+      font-family: Consolas, 'Courier New', 'DejaVu Sans Mono', monospace;
       font-size: 13.5px;
     }
-    .default  { fill: #c9d1d9; }
-    .key      { fill: #ffa657; }
-    .value    { fill: #a5d6ff; }
-    .dots     { fill: #4d5566; }
-    .header   { fill: #e6edf3; font-weight: bold; }
-    .sep      { fill: #4d5566; }
-    .green    { fill: #3fb950; }
-    .red      { fill: #f85149; }
+    .header { fill: #e6edf3; font-size: 14px; font-weight: bold; }
+    .sep    { fill: #3d444d; }
+    .key    { fill: #ffa657; }
+    .dot    { fill: #3d444d; }
+    .val    { fill: #79c0ff; }
+    .sub    { fill: #c9d1d9; }
+    .dim    { fill: #6e7681; }
   </style>
 
-  <!-- Background -->
-  <rect width="620" height="390" rx="10" fill="#161b22" />
+  <rect width="830" height="360" rx="8" fill="#0d1117"/>
 
-  <!-- Header -->
-  <text x="18" y="28" class="header">adanlff@github</text>
-  <text x="18" y="28" class="sep">                <tspan>──────────────────────────────────────────────────</tspan></text>
+  <!-- Header row -->
+  <text x="20" y="28" class="header">adanlff@github</text>
+  <text x="151" y="28" class="sep"> ──────────────────────────────────────────────────────────────────────────────────</text>
 
-  <!-- System Info -->
-  <text x="18" y="52">
-    <tspan class="key">· OS:</tspan>
-    <tspan class="dots">       ...................</tspan>
-    <tspan class="value">         Windows, Linux, shell</tspan>
-  </text>
-  <text x="18" y="70">
-    <tspan class="key">· Uptime:</tspan>
-    <tspan class="dots">   ...................</tspan>
-    <tspan class="value">           fresh graduate</tspan>
-  </text>
-  <text x="18" y="88">
-    <tspan class="key">· Host:</tspan>
-    <tspan class="dots">      ...................</tspan>
-    <tspan class="value">      Telkom University Surabaya</tspan>
-  </text>
-  <text x="18" y="106">
-    <tspan class="key">· Kernel:</tspan>
-    <tspan class="dots">   ...................</tspan>
-    <tspan class="value">   Full-Stack &amp; Front-End Developer</tspan>
-  </text>
-  <text x="18" y="124">
-    <tspan class="key">· IDE:</tspan>
-    <tspan class="dots">       ...................</tspan>
-    <tspan class="value">             VS Code, Figma</tspan>
-  </text>
+  <!-- Row 1 -->
+  <text x="20" y="52"><tspan class="key">· OS:</tspan><tspan class="dot">          .........................................................................</tspan><tspan class="val">   Windows, Linux, shell</tspan></text>
+  <!-- Row 2 -->
+  <text x="20" y="70"><tspan class="key">· Uptime:</tspan><tspan class="dot">      .........................................................................</tspan><tspan class="val">         fresh graduate</tspan></text>
+  <!-- Row 3 -->
+  <text x="20" y="88"><tspan class="key">· Host:</tspan><tspan class="dot">        .........................................................................</tspan><tspan class="val">   Telkom University Surabaya</tspan></text>
+  <!-- Row 4 -->
+  <text x="20" y="106"><tspan class="key">· Kernel:</tspan><tspan class="dot">      .........................................................................</tspan><tspan class="val">   Full-Stack &amp; Front-End Dev</tspan></text>
+  <!-- Row 5 -->
+  <text x="20" y="124"><tspan class="key">· IDE:</tspan><tspan class="dot">         .........................................................................</tspan><tspan class="val">           VS Code, Figma</tspan></text>
 
-  <!-- Separator -->
-  <text x="18" y="148" class="sep">──────────────────────────────────────────────────────────</text>
+  <!-- Separator line -->
+  <line x1="20" y1="140" x2="810" y2="140" stroke="#3d444d" stroke-width="1"/>
 
   <!-- Languages -->
-  <text x="18" y="168">
-    <tspan class="key">· Languages</tspan><tspan class="default">.</tspan><tspan class="key">Programming:</tspan>
-    <tspan class="dots">   ...</tspan>
-    <tspan class="value">   TypeScript, JavaScript, Python</tspan>
-  </text>
-  <text x="18" y="186">
-    <tspan class="key">· Languages</tspan><tspan class="default">.</tspan><tspan class="key">Computer:</tspan>
-    <tspan class="dots">   ......</tspan>
-    <tspan class="value">   HTML, CSS, JSON, SQL, Markdown</tspan>
-  </text>
-  <text x="18" y="204">
-    <tspan class="key">· Languages</tspan><tspan class="default">.</tspan><tspan class="key">Real:</tspan>
-    <tspan class="dots">   .........</tspan>
-    <tspan class="value">         Indonesian, English</tspan>
-  </text>
+  <text x="20" y="160"><tspan class="key">· Languages</tspan><tspan class="sub">.</tspan><tspan class="key">Programming:</tspan><tspan class="dot">  .........................................................................</tspan><tspan class="val"> TypeScript, JavaScript, Python</tspan></text>
+  <text x="20" y="178"><tspan class="key">· Languages</tspan><tspan class="sub">.</tspan><tspan class="key">Computer:</tspan><tspan class="dot">     .........................................................................</tspan><tspan class="val">  HTML, CSS, JSON, SQL, Markdown</tspan></text>
+  <text x="20" y="196"><tspan class="key">· Languages</tspan><tspan class="sub">.</tspan><tspan class="key">Real:</tspan><tspan class="dot">         .........................................................................</tspan><tspan class="val">          Indonesian, English</tspan></text>
 
-  <!-- Separator -->
-  <text x="18" y="228" class="sep">──────────────────────────────────────────────────────────</text>
+  <!-- Separator line -->
+  <line x1="20" y1="212" x2="810" y2="212" stroke="#3d444d" stroke-width="1"/>
 
-  <!-- Contact -->
-  <text x="18" y="228">
-    <tspan class="sep">─ </tspan><tspan class="default">Contact</tspan><tspan class="sep"> ──────────────────────────────────────────────────</tspan>
-  </text>
-  <text x="18" y="248">
-    <tspan class="key">· Email:</tspan>
-    <tspan class="dots">    ...................</tspan>
-    <tspan class="value">            achdany14@gmail.com</tspan>
-  </text>
-  <text x="18" y="266">
-    <tspan class="key">· Instagram:</tspan>
-    <tspan class="dots">...................</tspan>
-    <tspan class="value">                    @adanlff</tspan>
-  </text>
-  <text x="18" y="284">
-    <tspan class="key">· LinkedIn:</tspan>
-    <tspan class="dots"> ...................</tspan>
-    <tspan class="value">       /in/achmaddanyalfansyah</tspan>
-  </text>
-  <text x="18" y="302">
-    <tspan class="key">· Website:</tspan>
-    <tspan class="dots">  ...................</tspan>
-    <tspan class="value">                 adann.my.id</tspan>
-  </text>
+  <!-- Contact header -->
+  <text x="20" y="230"><tspan class="sep">─ </tspan><tspan class="sub">Contact</tspan><tspan class="sep"> ──────────────────────────────────────────────────────────────────────────────</tspan></text>
 
-  <!-- GitHub Stats separator -->
-  <text x="18" y="326">
-    <tspan class="sep">─ </tspan><tspan class="default">GitHub Stats</tspan><tspan class="sep"> ────────────────────────────────────────────</tspan>
-  </text>
-  <text x="18" y="346">
-    <tspan class="key">· Repos:</tspan>
-    <tspan class="dots">    ...................</tspan>
-    <tspan class="value">                  adanlff/...</tspan>
-  </text>
-  <text x="18" y="364">
-    <tspan class="key">· Focus:</tspan>
-    <tspan class="dots">    ...................</tspan>
-    <tspan class="value">   Clean UI · Reusable · Accessible</tspan>
-  </text>
-  <text x="18" y="382">
-    <tspan class="key">· GPA:</tspan>
-    <tspan class="dots">      ...................</tspan>
-    <tspan class="value">       3.77 / 4.00 — Informatics</tspan>
-  </text>
+  <!-- Contact rows -->
+  <text x="20" y="250"><tspan class="key">· Email:</tspan><tspan class="dot">       .........................................................................</tspan><tspan class="val">              achdany14@gmail.com</tspan></text>
+  <text x="20" y="268"><tspan class="key">· Instagram:</tspan><tspan class="dot">   .........................................................................</tspan><tspan class="val">                       @adanlff</tspan></text>
+  <text x="20" y="286"><tspan class="key">· LinkedIn:</tspan><tspan class="dot">    .........................................................................</tspan><tspan class="val">          /in/achmaddanyalfansyah</tspan></text>
+  <text x="20" y="304"><tspan class="key">· Website:</tspan><tspan class="dot">     .........................................................................</tspan><tspan class="val">                    adann.my.id</tspan></text>
+
+  <!-- Separator line -->
+  <line x1="20" y1="320" x2="810" y2="320" stroke="#3d444d" stroke-width="1"/>
+
+  <!-- GitHub Stats header -->
+  <text x="20" y="338"><tspan class="sep">─ </tspan><tspan class="sub">GitHub Stats</tspan><tspan class="sep"> ──────────────────────────────────────────────────────────────────────────</tspan></text>
+
+  <text x="20" y="358"><tspan class="key">· GPA:</tspan><tspan class="dot">         .........................................................................</tspan><tspan class="val">   3.77 / 4.00  ·  Informatics — Telkom University</tspan></text>
 </svg>

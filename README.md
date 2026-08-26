@@ -1,41 +1,8 @@
-﻿<div align="center">
-
-```
-adanlff@github
-```
-
-</div>
-
-<img align="left" width="200" src="https://github.com/adanlff.png" />
-
-```
-adanlff@github ─────────────────────────────────────────────
-. OS:          .......................... Windows, Linux, shell
-. Uptime:      ................................ fresh graduate
-. Role:        ............ Full-Stack & Front-End Developer
-. Location:    ........................... Sidoarjo, Indonesia
-
-. Languages.Programming: ..... TypeScript, JavaScript, Python
-. Languages.Computer: ... HTML, CSS, JSON, SQL, YAML, Markdown
-. Languages.Real: ..................... Indonesian, English
-
-. Quote:
-  "Clarity is the foundation of great UI."
-
-─ Contact ─────────────────────────────────────────────────
-. Email:       ......................... achdany14@gmail.com
-. Instagram:   ..................................... @adanlff
-. LinkedIn:    .................. /in/achmaddanyalfansyah
-. Website:     ................................... adann.my.id
-
-─ GitHub Stats ─────────────────────────────────────────────
-. Edu:    B.Sc. Informatics — Telkom University Surabaya
-. GPA:    ............................................... 3.77
-. Stack:  ......... Next.js, React, TypeScript, Tailwind
-. Focus:  ........... Clean UI · Accessibility · Reusability
-```
-
-<br clear="left"/>
+﻿<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+  <img src="dark_mode.svg" alt="adanlff system info" />
+</picture>
 
 ---
 

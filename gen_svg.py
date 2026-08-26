@@ -107,8 +107,18 @@ def make_svg(bg, hc, kc, dc, vc, nc, sc):
 
     out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="830" height="{svg_h}" viewBox="0 0 830 {svg_h}">')
     out.append(FONT_FACE)
-    border_color = '#30363d' if bg == '#161b22' else '#d0d7de'
-    out.append(f'<rect width="830" height="{svg_h}" rx="8" fill="{bg}" stroke="{border_color}" stroke-width="1"/>')
+    # Gradient background + border
+    g1, g2 = bg  # (top-color, bottom-color)
+    border_color, bw = sc, '1.5'
+    out.append(
+        f'<defs>'
+        f'<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0%" stop-color="{g1}"/>'
+        f'<stop offset="100%" stop-color="{g2}"/>'
+        f'</linearGradient>'
+        f'</defs>'
+    )
+    out.append(f'<rect width="830" height="{svg_h}" rx="8" fill="url(#bg)" stroke="{border_color}" stroke-width="{bw}"/>')
     out.append(f'<g font-family={FONT!r} font-size="13.5">')
 
     # Header row
@@ -130,12 +140,15 @@ def make_svg(bg, hc, kc, dc, vc, nc, sc):
     return '\n'.join(out)
 
 
+# bg = (gradient-top, gradient-bottom)
 dark = make_svg(
-    bg='#161b22', hc='#e6edf3', kc='#ffa657', dc='#484f58',
-    vc='#79c0ff', nc='#c9d1d9', sc='#484f58',
+    bg=('#1e2433', '#0d1117'),   # dark navy → GitHub black
+    hc='#e6edf3', kc='#ffa657', dc='#484f58',
+    vc='#79c0ff', nc='#c9d1d9', sc='#30363d',
 )
 light = make_svg(
-    bg='#ffffff', hc='#1f2328', kc='#953800', dc='#c2cfde',
+    bg=('#eef4ff', '#ffffff'),   # soft blue-white → white
+    hc='#1f2328', kc='#953800', dc='#b9c5d0',
     vc='#0a3069', nc='#57606a', sc='#c2cfde',
 )
 

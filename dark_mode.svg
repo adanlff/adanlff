@@ -11,10 +11,11 @@
     font-weight: bold;
   }
 </style>
-<rect width="830" height="416" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e2433"/><stop offset="100%" stop-color="#0d1117"/></linearGradient></defs>
+<rect width="830" height="416" rx="8" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
 <g font-family="'JetBrains Mono',Consolas,'Courier New',monospace" font-size="13.5">
 <text x="20.0" y="28" font-weight="bold" font-size="14" fill="#e6edf3">adanlff@github</text>
-<line x1="145.3" y1="24.0" x2="810.0" y2="24.0" stroke="#484f58" stroke-width="0.7"/>
+<line x1="145.3" y1="24.0" x2="810.0" y2="24.0" stroke="#30363d" stroke-width="0.7"/>
 <text x="20.0" y="50" fill="#ffa657">· OS:</text>
 <line x1="71.2" y1="46.0" x2="627.1" y2="46.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
 <text x="810.0" y="50" text-anchor="end" fill="#79c0ff">Windows, Linux, shell</text>
@@ -39,9 +40,9 @@
 <text x="20.0" y="194" fill="#ffa657">· Languages.Real:</text>
 <line x1="170.0" y1="190.0" x2="643.5" y2="190.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
 <text x="810.0" y="194" text-anchor="end" fill="#79c0ff">Indonesian, English</text>
-<text x="20.0" y="230" fill="#484f58">─ </text>
+<text x="20.0" y="230" fill="#30363d">─ </text>
 <text x="36.5" y="230" fill="#c9d1d9">Contact</text>
-<line x1="104.1" y1="226.0" x2="810.0" y2="226.0" stroke="#484f58" stroke-width="0.7"/>
+<line x1="104.1" y1="226.0" x2="810.0" y2="226.0" stroke="#30363d" stroke-width="0.7"/>
 <text x="20.0" y="248" fill="#ffa657">· Email:</text>
 <line x1="95.9" y1="244.0" x2="643.5" y2="244.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
 <text x="810.0" y="248" text-anchor="end" fill="#79c0ff">achdany14@gmail.com</text>
@@ -54,9 +55,9 @@
 <text x="20.0" y="302" fill="#ffa657">· Website:</text>
 <line x1="112.3" y1="298.0" x2="709.4" y2="298.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
 <text x="810.0" y="302" text-anchor="end" fill="#79c0ff">adann.my.id</text>
-<text x="20.0" y="338" fill="#484f58">─ </text>
+<text x="20.0" y="338" fill="#30363d">─ </text>
 <text x="36.5" y="338" fill="#c9d1d9">GitHub Stats</text>
-<line x1="145.3" y1="334.0" x2="810.0" y2="334.0" stroke="#484f58" stroke-width="0.7"/>
+<line x1="145.3" y1="334.0" x2="810.0" y2="334.0" stroke="#30363d" stroke-width="0.7"/>
 <text x="20.0" y="356" fill="#ffa657">· GPA:</text>
 <line x1="79.4" y1="352.0" x2="594.1" y2="352.0" stroke="#484f58" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="0.001 7.5"/>
 <text x="810.0" y="356" text-anchor="end" fill="#79c0ff">3.77 / 4.00 - Informatics</text>
